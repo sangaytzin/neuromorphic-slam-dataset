@@ -83,8 +83,7 @@ This dataset is released under the
 
 If you use this dataset, please cite:
 
-**Tenzin, S.** (2025).  
-*Neuromorphic Event–LiDAR–IMU Dataset for SLAM Applications (v1.0.0).*  
+**Tenzin, S.** (2025). *Neuromorphic Event–LiDAR–IMU Dataset for SLAM Applications (v1.0.0).*  
 Zenodo. [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)  
 *(replace with your DOI)*  
 
