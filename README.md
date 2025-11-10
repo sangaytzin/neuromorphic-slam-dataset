@@ -5,7 +5,6 @@ This repository accompanies a public dataset of synchronized **event camera**, *
 ---
 ### 📚 Quick Links
 - 📦 [Download Dataset (Releases)](../../releases)
-- 📂 [Metadata Files](./metadata)
 - 🧾 [License](./LICENSE)
 - 🧪 [Citation File](./CITATION.cff)
 ---
