@@ -2,6 +2,14 @@
 
 This repository accompanies a public dataset of synchronized **event camera**, **LiDAR**, and **IMU** recordings suitable for **neuromorphic SLAM**, **VO/LC**, and **sensor fusion** research.
 
+---
+### 📚 Quick Links
+- 📦 [Download Dataset (Releases)](../../releases)
+- 📂 [Metadata Files](./metadata)
+- 🧾 [License](./LICENSE)
+- 🧪 [Citation File](./CITATION.cff)
+---
+
 **Sensors**
 - Event camera: Prophesee STM32-GENx320 (320×320)
 - LiDAR: Livox MID-360
@@ -28,6 +36,13 @@ This repository accompanies a public dataset of synchronized **event camera**, *
 
 ## 📁 Archive Contents (typical)
 
+sequence_name/
+├─ events/ # event stream frames or NPZ/CSV (ts, x, y, polarity, t)
+├─ imu/ # IMU CSV (ax, ay, az, gx, gy, gz, timestamp)
+├─ lidar/ # point clouds (.pcd/.bin)
+├─ calibration/ # intrinsics/extrinsics YAMLs (if available)
+├─ rosbag/ # *.bag (raw ROS/ROS2 topics) if included
+└─ metadata.json # capture parameters and topic map
 
 ---
 
@@ -40,12 +55,18 @@ This repository accompanies a public dataset of synchronized **event camera**, *
    sha256sum -c checksums.sha256
    # or on Windows PowerShell:
    # Get-FileHash *.zip -Algorithm SHA256
-
+3. Unzip
+  ```bash
    unzip b5_indoor.zip
-
-# ROS 2 example
+   ```
+   
+### B) Inspect ROS bag
+```bash
 ros2 bag info sequence_name/rosbag/sequence.bag
+```
 
+## 🧾 Metadata Example (`metadata.json`)
+```json
 {
   "sequence_id": "b5_indoor",
   "location": "Building B5, indoor",
@@ -63,7 +84,20 @@ ros2 bag info sequence_name/rosbag/sequence.bag
   "timestamps": {"start_ns": 0, "end_ns": 0},
   "notes": "See calibration/ for intrinsics/extrinsics if provided."
 }
+```
+
+## ⚖️ License
+This dataset is released under the  
+**[Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)** license.  
+
+> 📄 View the complete license text in the [`LICENSE`](./LICENSE) file.
 
 
+## 🧪 Citation
+If you use this dataset, please cite:
+**Tenzin, S.** (2025). *Neuromorphic Event–LiDAR–IMU Dataset for SLAM Applications (v1.0.0).* Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX  
+*(replace with your DOI)*
+
+> 🧾 For BibTeX or structured citation formats, see the [`CITATION.cff`](./CITATION.cff) file.
 
 
