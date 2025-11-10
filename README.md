@@ -80,13 +80,12 @@ ros2 bag info sequence_name/rosbag/sequence.bag
     "events": "/dvs/events",
     "imu": "/imu",
     "lidar": "/lidar_points"
-  },
-  "timestamps": {"start_ns": 0, "end_ns": 0},
-  "notes": "See calibration/ for intrinsics/extrinsics if provided."
+  }
 }
 ```
 
 ## ⚖️ License
+
 This dataset is released under the  
 **[Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)** license.  
 
@@ -94,10 +93,15 @@ This dataset is released under the
 
 
 ## 🧪 Citation
+
 If you use this dataset, please cite:
-**Tenzin, S.** (2025). *Neuromorphic Event–LiDAR–IMU Dataset for SLAM Applications (v1.0.0).* Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX  
-*(replace with your DOI)*
+
+**Tenzin, S.** (2025).  
+*Neuromorphic Event–LiDAR–IMU Dataset for SLAM Applications (v1.0.0).*  
+Zenodo. [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)  
+*(replace with your DOI)*  
 
 > 🧾 For BibTeX or structured citation formats, see the [`CITATION.cff`](./CITATION.cff) file.
+
 
 
