@@ -34,18 +34,6 @@ This repository accompanies a public dataset of synchronized **event camera**, *
 
 ---
 
-## 📁 Archive Contents (typical)
-
-sequence_name/
-├─ events/ # event stream frames or NPZ/CSV (ts, x, y, polarity, t)
-├─ imu/ # IMU CSV (ax, ay, az, gx, gy, gz, timestamp)
-├─ lidar/ # point clouds (.pcd/.bin)
-├─ calibration/ # intrinsics/extrinsics YAMLs (if available)
-├─ rosbag/ # *.bag (raw ROS/ROS2 topics) if included
-└─ metadata.json # capture parameters and topic map
-
----
-
 ## 🔧 Quick Start
 
 ### A) Download & Verify
