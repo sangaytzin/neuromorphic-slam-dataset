@@ -80,10 +80,6 @@ This dataset is released under the
 
 
 ## 🧪 Citation
-
-If you use this dataset, please cite:
-
-## 🧪 Citation
 If you use this dataset, please cite:
 
 **Tenzin, S., Rassau, A., Chai, D., & Moniruzzaman, M. D.** (2025).  
