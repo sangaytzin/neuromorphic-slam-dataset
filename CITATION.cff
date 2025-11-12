@@ -11,6 +11,9 @@ authors:
   - family-names: Chai
     given-names: Douglas
     affiliation: "Edith Cowan University (ECU), Perth, Western Australia"
+  - family-names: Moniruzzaman
+    given-names: MD
+    affiliation: "Edith Cowan University (ECU), Perth, Western Australia"
 date-released: 2025-11-10
 version: "1.0.0"
 license: CC-BY-NC-4.0
@@ -35,6 +38,8 @@ preferred-citation:
       given-names: Alex
     - family-names: Chai
       given-names: Douglas
+    - family-names: Moniruzzaman
+      given-names: MD
   year: 2025
   version: "v1.0.0"
   doi: 10.5281/zenodo.17585682
