@@ -14,7 +14,7 @@ authors:
 date-released: 2025-11-10
 version: "1.0.0"
 license: CC-BY-NC-4.0
-doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.17585682
 repository-code: "https://github.com/sangaytzin/neuromorphic-slam-dataset"
 type: dataset
 keywords:
