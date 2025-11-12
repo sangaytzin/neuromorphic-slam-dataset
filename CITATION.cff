@@ -5,6 +5,12 @@ authors:
   - family-names: Tenzin
     given-names: Sangay
     affiliation: "Edith Cowan University (ECU), Perth, Western Australia"
+  - family-names: Rassau
+    given-names: Alex
+    affiliation: "Edith Cowan University (ECU), Perth, Western Australia"
+  - family-names: Chai
+    given-names: Douglas
+    affiliation: "Edith Cowan University (ECU), Perth, Western Australia"
 date-released: 2025-11-10
 version: "1.0.0"
 license: CC-BY-NC-4.0
@@ -13,20 +19,23 @@ repository-code: "https://github.com/sangaytzin/neuromorphic-slam-dataset"
 type: dataset
 keywords:
   - event camera
-  - spiking neural network
   - SLAM
   - LiDAR
   - IMU
   - neuromorphic computing
+  - spiking neural networks
   - sensor fusion
-  - dataset
 preferred-citation:
   type: dataset
   title: "Neuromorphic Event–LiDAR–IMU Dataset for SLAM Applications"
   authors:
     - family-names: Tenzin
       given-names: Sangay
+    - family-names: Rassau
+      given-names: Alex
+    - family-names: Chai
+      given-names: Douglas
   year: 2025
   version: "v1.0.0"
-  doi: 10.5281/zenodo.XXXXXXX
-  url: "https://doi.org/10.5281/zenodo.XXXXXXX"
+  doi: 10.5281/zenodo.17585682
+  url: "https://doi.org/10.5281/zenodo.17585682"
