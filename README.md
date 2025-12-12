@@ -1,6 +1,6 @@
 # Neuromorphic Event–LiDAR–IMU Dataset for SLAM Applications
 
-This repository accompanies a public dataset of synchronized **event camera**, **LiDAR**, and **IMU** recordings suitable for **neuromorphic SLAM**, **VO/LC**, and **sensor fusion** research.
+This repository hosts a public dataset of synchronized **event camera**, **LiDAR**, and **IMU** recordings suitable for **neuromorphic SLAM**, **VO/LC**, and **sensor fusion** research.
 
 ---
 ### 📚 Quick Links
@@ -15,6 +15,20 @@ This repository accompanies a public dataset of synchronized **event camera**, *
 - IMU: Pixhawk 6C Mini
 
 > **Download the full dataset from the [Releases](../../releases) page.** Each archive typically contains event/IMU/LiDAR data (and optionally a ROS bag) plus metadata.
+
+---
+
+## 📂 Data Format
+
+The dataset is released in **two complementary formats**:
+
+- **ROS bag (`.bag`) format**  
+  Preserves the original, time-synchronised multi-sensor streams and ROS topic structure for direct replay and evaluation within **ROS / ROS 2-based SLAM pipelines**.
+
+- **CSV (`.csv`) format**  
+  Provides lightweight, human-readable sensor data for **offline preprocessing, analysis, visualisation, and learning-based model training** without requiring ROS.
+
+Both formats contain identical sensor measurements and timestamps to ensure consistency across experimental workflows.
 
 ---
 
