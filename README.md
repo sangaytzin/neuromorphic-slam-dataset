@@ -23,10 +23,10 @@ This repository hosts a public dataset of synchronized **event camera**, **LiDAR
 The dataset is released in **two complementary formats**:
 
 - **ROS bag (`.bag`) format**  
-  Preserves the original, time-synchronised multi-sensor streams and ROS topic structure for direct replay and evaluation within **ROS / ROS 2-based SLAM pipelines**.
+  Preserves the original, time-synchronized multi-sensor streams and ROS topic structure for direct replay and evaluation within **ROS / ROS 2-based SLAM pipelines**.
 
 - **CSV (`.csv`) format**  
-  Provides lightweight, human-readable sensor data for **offline preprocessing, analysis, visualisation, and learning-based model training** without requiring ROS.
+  Provides lightweight, human-readable sensor data for **offline preprocessing, analysis, visualization, and learning-based model training** without requiring ROS.
 
 Both formats contain identical sensor measurements and timestamps to ensure consistency across experimental workflows.
 
